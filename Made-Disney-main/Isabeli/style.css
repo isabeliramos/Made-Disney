@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
+:root{
+    --cor-principal: #ffffff; 
+    --cor-secundaria: #000000; 
+    --cor-do-botao: #40bdee; 
+    --cor-do-fundo: #000000; 
+
+}
+body{
+    background-color: var(--cor-do-fundo);
+    color: var(--cor-principal);
+    
+}
+
+.principal{
+    background-image: url("img/Background.png");
+}
+
+.container{
+    height: 140vh; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid; 
+    grid-template-columns: 40% 50%;
+    padding: 25px;
+}
+
+.container-botao{
+    display:block; 
+    padding: 5px;
+}
+
+.container-imagem{
+    margin: 50px;
+margin-left: 160px;
+height: 35px;
+
+}
+
+.container-aviso{
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 14px;
+    height: 20px;
+}
