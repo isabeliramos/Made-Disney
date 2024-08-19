@@ -1,26 +1,60 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
 :root{
-    --cor-principal:#FFFFFF;
-    --COR-SECUNDARI:#f80000;
-    --COR-DO-BOTAO:#0a3569;
-    --COR-DE-FUNDO:#00030C;
-}
+    --cor-principal: #ffffff; 
+    --cor-secundaria: #000000; 
+    --cor-do-botao: #40bdee; 
+    --cor-do-fundo: #000000; 
 
-body{
-    background-color:var(--cor-de-fundo);
 }
-
 .principal{
-    background-image: url(img/Background\ \(1\).png);
+    background-image: url("img/r767447_1176x661_16-9.png");
+    color: var(--cor-principal);
+}
+    .container{
+        height:125vh;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    
+    .container-titulo{
+        margin: 20px;
+    }
+    
+.container-titulo2{
+margin: 20px;
+font-size: xx-large;
 }
 
-.container{
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.container-botao{
-    display: block;
-}
+    .container-aviso{
+        font-size:small;
+        margin: 20px;
+        margin-left: 40px;
+    }
+    
+    .container-botao{
+        font-size:large;
+        text-decoration: none;
+        background-color: var(--cor-do-botao);
+        border-radius: 15px;
+        padding: 2em;
+        color:var(--cor-principal);
+        display: block;
+        margin-top: 20px;
+    }
+    .botao-secundario{
+        background-color: transparent;
+        border:2px solid var(--cor-principal);
+        margin-top: 20px;;
+    }
+    
+    .container-caixa{
+        margin: 20px;
+        margin-left: 35px;
+    }
