@@ -58,3 +58,20 @@ font-size: xx-large;
         margin: 20px;
         margin-left: 35px;
     }
+
+    .secundario-imagem{
+     width:80% ;
+    }
+    .secundario{
+        align-items: center;
+        margin: 10 20px;
+    }
+    .descricao-titulo{
+        font-weight:700;
+        font-size:48px;
+        color:var(--cor-principal);
+        margin-bottom:0.1em;
+    }
+    .descricao-texto{
+        color:var(--cor secundario);
+    }
