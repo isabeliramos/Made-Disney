@@ -1,49 +1,54 @@
 *{
     margin:0;
-    padding:0; 
-}
-
-:root{
-    --cor-principal: #ffffff; 
-    --cor-secundaria: #000000; 
-    --cor-do-botao: #40bdee; 
-    --cor-do-fundo: #000000; 
-
-}
-body{
-    background-color: var(--cor-do-fundo);
-    color: var(--cor-principal);
-    
+    padding:0;
 }
 
 .principal{
-    background-image: url("img/Background.png");
+    background-image: url("img/many-books-black-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+:root{
+    --cor-principal:#FFFFFF;
+    --cor-secundaria:#C0C0C0;
+    --cor-do-botao:#19A77C;
+    --cor-de-fundo:#000000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--cor-principal);
 }
 
 .container{
-    height: 140vh; 
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: grid; 
-    grid-template-columns: 40% 50%;
-    padding: 25px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:60% 40%;
+    margin: 20px;
 }
 
-.container-botao{
-    display:block; 
-    padding: 5px;
-}
-
-.container-imagem{
-    margin: 50px;
-margin-left: 160px;
-height: 35px;
+.container-caixa{
+    padding:30px;
+    margin: 10px;
+    font-size: 30px;
 
 }
+.container-titulo{
+    margin:20px;
+    padding: 40px;
+}
+.secundario-imagem{
+    width: 20%;
+    margin: 80px;
+}
 
-.container-aviso{
-    font-size: 15px;
-    margin: 5px;
-    margin-left: 14px;
-    height: 20px;
+.descricao-titulo{
+    margin: 40px;
+}
+.terciario-imagem{
+    width: 30%;
+    margin:40px;
 }
